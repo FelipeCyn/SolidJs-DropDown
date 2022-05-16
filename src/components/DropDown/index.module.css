@@ -1,0 +1,60 @@
+.container {
+  width: 40px;
+  height: 40px;
+  background-color: hsla(225, 14%, 12%, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sub-container-left {
+  width: 80px;
+  height: 40px;
+  background-color: hsla(225, 14%, 12%, 1);
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sub-container-right {
+  width: 80px;
+  height: 40px;
+  background-color: hsla(225, 14%, 12%, 1);
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  cursor: pointer;
+  direction: ltr;
+}
+
+.item-text {
+  color: hsla(225, 14%, 100%, 1);
+}
+
+.sub-container-left:hover{
+  background-color:  hsla(210, 100%, 37%, 1);
+  cursor: pointer;
+}
+
+.sub-container-right:hover{
+  background-color:  hsla(210, 100%, 37%, 1);
+  cursor: pointer;
+}
+
+.direction-right {
+  direction: rtl;
+  width: 40px;
+  height: 40px;
+}
+
+.direction-left {
+  direction:ltr;
+  width: 40px;
+  height: 40px;
+}
+
+.item-link {
+  text-decoration: none;
+}

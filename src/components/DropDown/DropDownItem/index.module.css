@@ -1,0 +1,42 @@
+.sub-container-left {
+  width: 80px;
+  height: 40px;
+  background-color: hsla(225, 14%, 12%, 1);
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sub-container-right {
+  width: 80px;
+  height: 40px;
+  background-color: hsla(225, 14%, 12%, 1);
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  cursor: pointer;
+  direction: ltr;
+}
+
+.sub-container-left:hover {
+  background-color: hsla(210, 100%, 37%, 1);
+  cursor: pointer;
+}
+
+.sub-container-right:hover {
+  background-color: hsla(210, 100%, 37%, 1);
+  cursor: pointer;
+}
+
+.item-text {
+  color: hsla(225, 14%, 100%, 1);
+  cursor: pointer;
+}
+
+.item-link {
+  text-decoration: none;
+  padding: 0;
+  border: none;
+  margin: 0;
+}
