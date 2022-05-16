@@ -1,8 +1,7 @@
-import type { Component } from 'solid-js';
 import styles from './App.module.css';
 import DropDown from './components/DropDown';
 
-const App: Component = () => {
+const App = () => {
 	const items = [
 		{
 			title: 'Link',
